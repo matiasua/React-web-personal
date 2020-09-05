@@ -3,6 +3,7 @@ import React from 'react';
 import Menu from '../menu/Menu';
 import Footer from '../footer/Footer';
 import Slider from './slider/Slider';
+import Servicios from './servicios/Servicios';
 
 class Home extends React.Component{
 
@@ -18,6 +19,7 @@ class Home extends React.Component{
                 <div className="container">
                     
                     <Slider />
+                    <Servicios />
 
                     <hr/>
                 </div>
