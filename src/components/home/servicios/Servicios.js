@@ -9,7 +9,7 @@ class Servicios extends React.Component{
                 <div className="row">
 
                     <div className="col-lg-4">
-                        <img className="img-fluid border border-info rounded-circle" src="https://firebasestorage.googleapis.com/v0/b/web-personal-acdd1.appspot.com/o/arturito.jpg?alt=media&token=47f211e1-d734-4620-98ae-19774763fe5a" alt="Responsive image" >
+                        <img className="responsive border border-info rounded-circle" src="https://firebasestorage.googleapis.com/v0/b/web-personal-acdd1.appspot.com/o/arturito.jpg?alt=media&token=47f211e1-d734-4620-98ae-19774763fe5a" alt="Responsive image" >
                              
                         </img>
                         <h2>Servicio 1</h2>
