@@ -24,25 +24,24 @@ body {
   margin-top: 50px;
 }
 
-#slider > a.carousel-control-next > span.carousel-control-next-icon, #slider > a.carousel-control-prev > span.carousel-control-prev-icon {
+#slider > a.carousel-control-next > span.carousel-control-next-icon,
+#slider > a.carousel-control-prev > span.carousel-control-prev-icon {
   margin-top: -100px;
 }
 
 .featurette-divider {
-  margin: 5rem 0; 
+  margin: 5rem 0;
 }
 
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
-
 
 /* RESPONSIVE CSS */
 
-@media (min-width: 300px) { 
-
+@media (min-width: 300px) {
   .featurette-heading {
     font-size: 2vw;
   }
@@ -54,7 +53,6 @@ body {
   .elementos {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -69,7 +67,6 @@ body {
   .elementos {
     display: block;
   }
-
 }
 
 .responsive {
@@ -88,9 +85,17 @@ body {
 }
 
 @media (min-width: 768px) {
-
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
-  
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+  float: left;
 }

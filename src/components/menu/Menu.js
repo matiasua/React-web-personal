@@ -5,10 +5,14 @@ import { NavLink } from "react-router-dom";
 class Menu extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <NavLink to="/" className="navbar-brand">
-          Mi Proyecto
-        </NavLink>
+      <nav className="navbar navbar-expand-md navbar-light fixed-top  p-3 mb-2 bg-info text-dark">
+        <a className="navbar-brand" href="#">
+          <img
+            alt="Logo"
+            className="logo"
+            src="https://firebasestorage.googleapis.com/v0/b/web-personal-acdd1.appspot.com/o/instantlogosearch-fila.png?alt=media&token=fb1de559-af22-428c-9385-6361c3413fb3"
+          ></img>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,22 +28,22 @@ class Menu extends React.Component {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <NavLink to="/" className="nav-link">
-                Home{" "}
+                Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/nosotros" className="nav-link">
-                Nosotros{" "}
+                Nosotros
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/servicios" className="nav-link">
-                Servicios{" "}
+                Servicios
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/contacto" className="nav-link">
-                Contacto{" "}
+                Contacto
               </NavLink>
             </li>
           </ul>

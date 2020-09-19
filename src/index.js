@@ -12,6 +12,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js"; // Archivo Javascri
 import Home from "./components/home/Home";
 import Nosotros from "./components/nosotros/Nosotros";
 import PageService from "./components/servicios/Servicios";
+import Contacto from "./components/contacto/Contacto";
 
 ReactDOM.render(
   <Router>
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/nosotros" component={Nosotros} />
         <Route exact path="/servicios" component={PageService} />
+        <Route exact path="/contacto" component={Contacto} />
       </Switch>
     </div>
   </Router>,

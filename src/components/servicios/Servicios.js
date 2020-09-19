@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer/Footer";
 import Menu from "../menu/Menu";
 
 export default class PageService extends React.Component {
@@ -127,6 +128,7 @@ export default class PageService extends React.Component {
             </div>
           </div>
         </main>
+        <Footer />
       </>
     );
   }
